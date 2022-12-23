@@ -414,11 +414,9 @@ iframe {
   color: var(--purple-dark-color);
 }
 
-.characters figure{
-  margin: 0;
-}
-.characters figure img{
-  max-width:100%;
+.characters picture{
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 0){
@@ -448,14 +446,14 @@ iframe {
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
   }
-  .characters figure img {
+  .characters picture img {
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
   }
 
-  .characters figure:hover img {
+  .characters picture:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
@@ -488,6 +486,7 @@ iframe {
   grid-template-columns: 300px 1fr;
   gap: 2rem;
   align-items: center;
+  margin-top: 20px;
 }
 
 @media (min-width: 0){
@@ -543,66 +542,6 @@ iframe {
   margin-inline-end: 0px;
   margin-inline-start: 0px;
   padding: 10px;
-}
-
-#monicaImg{
-  content:url("../img/monicaDetail.jpg");
-}
-
-#monicaMainImg{
-  content:url("../img/monica.jpg");
-  max-width: 70%;
-  height: auto;
-}
-
-#rachelImg{
-  content:url("../img/rachelDetail.jpg");
-}
-
-#rachelMainImg{
-  content:url("../img/rachel.jpg");
-  max-width: 70%;
-  height: auto;
-}
-
-#phoebeImg{
-  content:url("../img/phoebeDetail.jpg");
-}
-
-#phoebeMainImg{
-  content:url("../img/phoebe.jpg");
-  max-width: 70%;
-  height: auto;
-}
-
-#chandlerImg{
-  content:url("../img/chandlerDetail.jpg");
-}
-
-#chandlerMainImg{
-  content:url("../img/chandler.jpg");
-  max-width: 70%;
-  height: auto;
-}
-
-#rossImg{
-  content:url("../img/rossDetail.jpg");
-}
-
-#rossMainImg{
-  content:url("../img/ross.jpg");
-  max-width: 70%;
-  height: auto;
-}
-
-#joeyImg{
-  content:url("../img/joeyDetail.jpg");
-}
-
-#joeyMainImg{
-  content:url("../img/joey.jpg");
-  max-width: 70%;
-  height: auto;
 }
 
 .oculto{

@@ -3,7 +3,7 @@
         "id": "monica",
         "title": "Monica Geller",
         "mainImg": "pictureMainMonica",
-        "imgId": "monicaImg",
+        "detailImg": "pictureDetailMonica",
         "secondImg": "figureSerieMonica",
         "parragraphs": [
             "Interpretada por Courteney Cox, Monica es amable, cariñosa y amigable, pero quizás es más conocida por su obsesión por la limpieza y orden. Le gusta demostrar sus habilidades organizativas. También puede ser mandona y extremadamente competitiva.",
@@ -42,7 +42,7 @@
         "id": "rachel",
         "title": "Rachel Green",
         "mainImg": "pictureMainRachel",
-        "imgId": "rachelImg",
+        "detailImg": "pictureDetailRachel",
         "secondImg": "figureSerieRachel",
         "parragraphs":[
             "Rachel Greene es un personaje ficticio de la serie de televisión estadounidense Friends (1994-2004). Fue interpretada por Jennifer Aniston, quien recibió premios Emmy y un Globo de Oro por su actuación.",
@@ -82,7 +82,7 @@
         "id": "phoebe",
         "title": "Phoebe Buffay",
         "mainImg": "pictureMainPhoebe",
-        "imgId": "phoebeImg",
+        "detailImg": "pictureDetailPhoebe",
         "secondImg": "figureSeriePhoebe",
         "parragraphs":[
             "Phoebe Buffay es una guitarrista de naturaleza dulce pero extraña. Al no haber experimentado nada como una infancia normal y completa, Phoebe suele ser muy ingenua, a veces inteligente y, en algunos aspectos, todavía es una niña de corazón. Phoebe también sorprende a algunas personas en la línea de la historia con su franqueza en ocasiones que los toma desprevenidos de su yo habitual.",
@@ -121,7 +121,7 @@
         "id": "chandler",
         "title": "Chandler Bing",
         "mainImg": "pictureMainChandler",
-        "imgId": "chandlerImg",
+        "detailImg": "pictureDetailChandler",
         "secondImg": "figureSerieChandler",
         "parragraphs":[
             "Chandler Bing fue interpretado por Matthew Perry. Chandler es uno de los personajes de Friends que más destaca por su sarcástico e ingenioso sentido del humor, que con toda seguridad es usado como barrera para evitar herir sus carencias emocionales debido a las secuelas que le dejaron la separación de sus padres.",
@@ -160,7 +160,7 @@
         "id": "ross",
         "title": "Ross Geller",
         "mainImg": "pictureMainRoss",
-        "imgId": "rossImg",
+        "detailImg": "pictureDetailRoss",
         "secondImg": "figureSerieRoss",
         "parragraphs":[
             "Interpretado por David Schwimmer. Ross es el hermano mayor de Mónica.Es doctor en paleontología. Empezó trabajando en un museo y terminó de profesor en una universidad. Es el más culto e inteligente, llegando a aburrir al resto de los amigos con largas lecciones.",
@@ -199,7 +199,7 @@
         "id": "joey",
         "title": "Joey Tribbiani",
         "mainImg": "pictureMainJoey",
-        "imgId": "joeyImg",
+        "detailImg": "pictureDetailJoey",
         "secondImg": "figureSerieJoey",
         "parragraphs":[
             "Interpretado por Matthew Steven LeBlanc. Joey Tribbiani es generalmente una persona afable, encantadora y bien intencionada, pero no tan brillante. Le encanta la comida, las mujeres, el sexo, la familia, los amigos, la mermelada y los New York Knicks.",

@@ -4,6 +4,7 @@ import lazyframe from "lazyframe";
 
 var mainPictures = [];
 var mainImgSerie = [];
+var mainImgDetail = [];
 
 function createElement(tag, className, attribute, content) {
     const element = document.createElement(tag);
@@ -25,6 +26,9 @@ function loadInfoCharacter(characterId){
     if(mainImgSerie.length == 0){
       mainImgSerie = [...characterDetailDOM.children].filter(node => node.classList.contains("figureSerie"));
     }
+    if(mainImgDetail.length == 0){
+      mainImgDetail = [...characterDetailDOM.children].filter(node => node.classList.contains("pictureDetail"));
+    }
 
     const title = createElement('h1', "tituloSection", undefined, characterSelected.title);
     characterDetailDOM.appendChild(title);
@@ -36,10 +40,10 @@ function loadInfoCharacter(characterId){
 
     const sectionDesc = createElement('section', 'descriptionDetail');
 
-    const picture = createElement('figure', undefined, {"name": "id", "value": "imgDetail"});
-    const img = createElement('img', undefined, {"name": "id", "value": characterSelected.imgId});
-    picture.appendChild(img);
-    sectionDesc.appendChild(picture);
+    const pictureDetail = mainImgDetail.find(a => a.id === characterSelected.detailImg);
+    pictureDetail.classList.remove('hidden');
+    pictureDetail.classList.add("showPictureMain");
+    sectionDesc.append(pictureDetail);
 
     const contentParragraphs = createElement('div');
     characterSelected.parragraphs.forEach(p => {
